@@ -1,0 +1,26 @@
+Solution for Part1:
+
+1.Make a new directory - mkdir first
+2.Change directory - cd first/
+3.Create new file - touch person.txt
+4.Change the file name to new name - mv person.txt another.txt
+5.Make a copy of the file - cp another.txt copy.txt
+6.Remove the file - rm copy.txt
+7.Make a copy of the folder to new folder - cp -r first second
+8.remove the folder - rm -rf second
+
+Solution for Part2:
+
+1.The man command lists the manual for a command
+2.-a - lists all files and folders including hidden ones
+  -l - lists files in a list format with more detail 
+3.By using option left/right you can jump between words in the terminal
+4.By using control + e you get to the end of a line in terminal
+5.By using control + a you move your cursor to the beginning in terminal
+6.option + delete is used to delete a word (without pressing backspace multiple times) in -terminal
+7.The terminal is a program is just an interface to the shell. The shell is what actually handles commands and so forth; the terminal program just gives it a way to interact with the environment.
+8.An absolute path is a path that gives the complete location for a file or folder. It starts from the root route.
+9.A relative path is a path that starts at the current location and not the root route
+10.A flag adds additional functionality to an existing command.Flags are used to modify the behavior of a command. ls -a,ls -l and rm commands
+11.-r - The option indicates recursive removal and helps remove non-empty directories. 
+   -f - The option allows removal without confirmation, even if a file does not exist.
