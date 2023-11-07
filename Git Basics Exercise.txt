@@ -1,0 +1,18 @@
+Solution for Git Basics Exercise:
+
+1. mkdir learn_git_again - created a folder
+2. cd learn_git_again
+3. touch third.txt-Created a file called third.txt
+4. git init - Initialized an empty git repository
+5. git add third.txt- Added third.txt to the staging area
+6. git commit -m “adding third.txt” -Commited with the message “adding third.txt”
+7. git log - check the commit with git log
+8. touch fourth.txt-Created a file called fourth.txt
+9. git add fourth.txt- Added fourth.txt to the staging area
+10. git commit -m “adding fourth.txt” -Commited with the message “adding fourth.txt”
+11. rm third.txt-Remove the third.txt file
+12. git add third.txt- Added third.txt to the staging area
+13. git commit -m “removing third.txt” -Commited with the message “removing third.txt”
+14. git log - check the commit with git log
+15.git config --global core.pager “cat” - Change your global setting to core.pager=cat 
+16.git config --global - list all of the global configurations for git
