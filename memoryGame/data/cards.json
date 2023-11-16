@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../memoryGame/image/bunny.png",
+        "name": "bunny"
+    },
+    {
+        "image": "../memoryGame/image/butterfly.png",
+        "name": "butterfly"
+    },
+    {
+        "image": "../memoryGame/image/duck.png",
+        "name": "duck"
+    },
+    {
+        "image": "../memoryGame/image/elephant.png",
+        "name": "elephant"
+    },
+    {
+        "image": "../memoryGame/image/hummingbird.png",
+        "name": "hummingbird"
+    },
+    {
+        "image": "../memoryGame/image/monkey.png",
+        "name": "monkey"
+    },
+    {
+        "image": "../memoryGame/image/panda.png",
+        "name": "panda"
+    },
+    {
+        "image": "../memoryGame/image/piggy.png",
+        "name": "piggy"
+    },
+    {
+        "image": "../memoryGame/image/tiger.png",
+        "name": "tiger"
+    }
+]
