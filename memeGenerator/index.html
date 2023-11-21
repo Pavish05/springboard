@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" ,initial-scale=1.0>
+    <meta http-eqiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Meme Generator</title>
+
+</head>
+
+<body>
+    <div class="background-blue">
+        <header class="container-header">
+            <div class="container-div">
+                <h1 class="text-info">MEME GENERATOR</h1>
+                <h2>Fill out the form to start creating the memes</h2>
+            </div>
+
+
+        </header>
+
+        <section class="container1">
+            <form id="meme-form">
+
+                <div class="row">
+                    <label for="link-to-pic" class="col-md-txt">Image URL:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <div class="col-md">
+                        <input type="url" class="form-control" id="uploaded-img" placeholder="Type the image URL"
+                            required>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <label for="text-on-top" class="col-md-txt">Text on top:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <div class="col-md">
+                        <input type="text" class="form-control" id="text-top" placeholder="Type the top text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="text-on-bottom" class="col-md-txt">Text on Bottom:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <div class="col-md">
+                        <input type="text" class="form-control" id="text-bottom" placeholder="Type the bottom text">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-md-btn">&nbsp;</label>
+                    <div class="col-md-btn">
+                        <input type="submit" class="btn" value="Generate">
+                    </div>
+                </div>
+
+            </form>
+            <div class="line"></div>
+        </section>
+    </div>
+
+    <section class="meme-gallery">
+
+        <ul class="gallery">
+        </ul>
+
+
+    </section>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
